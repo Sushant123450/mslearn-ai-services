@@ -22,7 +22,10 @@ def main():
         ai_key = os.getenv("AI_SERVICE_KEY")
 
         # Get image
-        for image_name in ["wallpaper","Assasin_creed"]:#building", "person", "street",
+        for image_name in [
+            "wallpaper",
+            "Assasin_creed",
+        ]:  # building", "person", "street",
             image_file = r"mslearn-ai-vision-main\Labfiles\01-analyze-images\Python\image-analysis\images\{}.jpg".format(
                 image_name
             )
